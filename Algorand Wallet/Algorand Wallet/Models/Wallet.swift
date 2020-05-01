@@ -7,7 +7,6 @@
 //
 
 import SwiftUI
-import CoreLocation
 
 struct Wallet: Hashable, Codable, Identifiable {
     var id: Int

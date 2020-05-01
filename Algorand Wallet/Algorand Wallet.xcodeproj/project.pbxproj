@@ -20,7 +20,6 @@
 		57906AF4245C4876007B82A9 /* WalletList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57906AF3245C4876007B82A9 /* WalletList.swift */; };
 		57906AF6245C4A12007B82A9 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57906AF5245C4A12007B82A9 /* Filter.swift */; };
 		57906AF8245C4C17007B82A9 /* WalletMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57906AF7245C4C17007B82A9 /* WalletMaster.swift */; };
-		57906AFA245C4D15007B82A9 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57906AF9245C4D15007B82A9 /* CircleImage.swift */; };
 		57906AFC245C4E38007B82A9 /* AssetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57906AFB245C4E38007B82A9 /* AssetDetailView.swift */; };
 		57906AFE245C872F007B82A9 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57906AFD245C872F007B82A9 /* Asset.swift */; };
 		57906B00245C8A03007B82A9 /* AssetRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57906AFF245C8A03007B82A9 /* AssetRow.swift */; };
@@ -66,7 +65,6 @@
 		57906AF3245C4876007B82A9 /* WalletList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletList.swift; sourceTree = "<group>"; };
 		57906AF5245C4A12007B82A9 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 		57906AF7245C4C17007B82A9 /* WalletMaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletMaster.swift; sourceTree = "<group>"; };
-		57906AF9245C4D15007B82A9 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircleImage.swift; path = "Algorand Wallet/CircleImage.swift"; sourceTree = SOURCE_ROOT; };
 		57906AFB245C4E38007B82A9 /* AssetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetDetailView.swift; sourceTree = "<group>"; };
 		57906AFD245C872F007B82A9 /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
 		57906AFF245C8A03007B82A9 /* AssetRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetRow.swift; sourceTree = "<group>"; };
@@ -125,7 +123,6 @@
 				57906AD1245C44B7007B82A9 /* Models */,
 				57269D3924543235005F3C4F /* AppDelegate.swift */,
 				57269D3B24543235005F3C4F /* ContentView.swift */,
-				57906AF9245C4D15007B82A9 /* CircleImage.swift */,
 				57906AED245C4561007B82A9 /* WalletRowView.swift */,
 				57906AFF245C8A03007B82A9 /* AssetRow.swift */,
 				57906AF3245C4876007B82A9 /* WalletList.swift */,
@@ -315,7 +312,6 @@
 				57906AEE245C4561007B82A9 /* WalletRowView.swift in Sources */,
 				57906B00245C8A03007B82A9 /* AssetRow.swift in Sources */,
 				57906AF4245C4876007B82A9 /* WalletList.swift in Sources */,
-				57906AFA245C4D15007B82A9 /* CircleImage.swift in Sources */,
 				57906AF8245C4C17007B82A9 /* WalletMaster.swift in Sources */,
 				57906AFC245C4E38007B82A9 /* AssetDetailView.swift in Sources */,
 				57906AFE245C872F007B82A9 /* Asset.swift in Sources */,
