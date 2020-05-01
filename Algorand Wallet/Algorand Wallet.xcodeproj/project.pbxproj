@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57269D3A24543235005F3C4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57269D3924543235005F3C4F /* AppDelegate.swift */; };
+		57269D3C24543235005F3C4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57269D3B24543235005F3C4F /* ContentView.swift */; };
+		57269D3E24543236005F3C4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57269D3D24543236005F3C4F /* Assets.xcassets */; };
+		57269D4124543236005F3C4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57269D4024543236005F3C4F /* Preview Assets.xcassets */; };
+		57269D4424543236005F3C4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57269D4224543236005F3C4F /* Main.storyboard */; };
+		57269D5024543236005F3C4F /* Algorand_WalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57269D4F24543236005F3C4F /* Algorand_WalletTests.swift */; };
+		57269D5B24543236005F3C4F /* Algorand_WalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57269D5A24543236005F3C4F /* Algorand_WalletUITests.swift */; };
+		57906AE8245C44B7007B82A9 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57906AD2245C44B7007B82A9 /* Data.swift */; };
+		57906AEA245C44B7007B82A9 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57906AD4245C44B7007B82A9 /* UserData.swift */; };
+		57906AEE245C4561007B82A9 /* WalletRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57906AED245C4561007B82A9 /* WalletRowView.swift */; };
+		57906AF4245C4876007B82A9 /* WalletList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57906AF3245C4876007B82A9 /* WalletList.swift */; };
+		57906AF6245C4A12007B82A9 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57906AF5245C4A12007B82A9 /* Filter.swift */; };
+		57906AF8245C4C17007B82A9 /* WalletMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57906AF7245C4C17007B82A9 /* WalletMaster.swift */; };
+		57906AFA245C4D15007B82A9 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57906AF9245C4D15007B82A9 /* CircleImage.swift */; };
+		57906AFC245C4E38007B82A9 /* AssetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57906AFB245C4E38007B82A9 /* AssetDetailView.swift */; };
+		57906AFE245C872F007B82A9 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57906AFD245C872F007B82A9 /* Asset.swift */; };
+		57906B00245C8A03007B82A9 /* AssetRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57906AFF245C8A03007B82A9 /* AssetRow.swift */; };
+		57906B02245C982D007B82A9 /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57906B01245C982D007B82A9 /* Wallet.swift */; };
+		57906B06245C9C18007B82A9 /* AssetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57906B05245C9C18007B82A9 /* AssetsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57269D4C24543236005F3C4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57269D2E24543235005F3C4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57269D3524543235005F3C4F;
+			remoteInfo = "Algorand Wallet";
+		};
+		57269D5724543236005F3C4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57269D2E24543235005F3C4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57269D3524543235005F3C4F;
+			remoteInfo = "Algorand Wallet";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57269D3624543235005F3C4F /* Algorand Wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Algorand Wallet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57269D3924543235005F3C4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57269D3B24543235005F3C4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		57269D3D24543236005F3C4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57269D4024543236005F3C4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		57269D4324543236005F3C4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57269D4524543236005F3C4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57269D4624543236005F3C4F /* Algorand_Wallet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Algorand_Wallet.entitlements; sourceTree = "<group>"; };
+		57269D4B24543236005F3C4F /* Algorand WalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Algorand WalletTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57269D4F24543236005F3C4F /* Algorand_WalletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorand_WalletTests.swift; sourceTree = "<group>"; };
+		57269D5124543236005F3C4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57269D5624543236005F3C4F /* Algorand WalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Algorand WalletUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57269D5A24543236005F3C4F /* Algorand_WalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorand_WalletUITests.swift; sourceTree = "<group>"; };
+		57269D5C24543236005F3C4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57906AD2245C44B7007B82A9 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		57906AD4245C44B7007B82A9 /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		57906AED245C4561007B82A9 /* WalletRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletRowView.swift; sourceTree = "<group>"; };
+		57906AF3245C4876007B82A9 /* WalletList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletList.swift; sourceTree = "<group>"; };
+		57906AF5245C4A12007B82A9 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		57906AF7245C4C17007B82A9 /* WalletMaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletMaster.swift; sourceTree = "<group>"; };
+		57906AF9245C4D15007B82A9 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircleImage.swift; path = "Algorand Wallet/CircleImage.swift"; sourceTree = SOURCE_ROOT; };
+		57906AFB245C4E38007B82A9 /* AssetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetDetailView.swift; sourceTree = "<group>"; };
+		57906AFD245C872F007B82A9 /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		57906AFF245C8A03007B82A9 /* AssetRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetRow.swift; sourceTree = "<group>"; };
+		57906B01245C982D007B82A9 /* Wallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
+		57906B05245C9C18007B82A9 /* AssetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57269D3324543235005F3C4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57269D4824543236005F3C4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57269D5324543236005F3C4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57269D2D24543235005F3C4F = {
+			isa = PBXGroup;
+			children = (
+				57269D3824543235005F3C4F /* Algorand Wallet */,
+				57269D4E24543236005F3C4F /* Algorand WalletTests */,
+				57269D5924543236005F3C4F /* Algorand WalletUITests */,
+				57269D3724543235005F3C4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57269D3724543235005F3C4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57269D3624543235005F3C4F /* Algorand Wallet.app */,
+				57269D4B24543236005F3C4F /* Algorand WalletTests.xctest */,
+				57269D5624543236005F3C4F /* Algorand WalletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57269D3824543235005F3C4F /* Algorand Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				57906AD1245C44B7007B82A9 /* Models */,
+				57269D3924543235005F3C4F /* AppDelegate.swift */,
+				57269D3B24543235005F3C4F /* ContentView.swift */,
+				57906AF9245C4D15007B82A9 /* CircleImage.swift */,
+				57906AED245C4561007B82A9 /* WalletRowView.swift */,
+				57906AFF245C8A03007B82A9 /* AssetRow.swift */,
+				57906AF3245C4876007B82A9 /* WalletList.swift */,
+				57906AF5245C4A12007B82A9 /* Filter.swift */,
+				57906AF7245C4C17007B82A9 /* WalletMaster.swift */,
+				57906AFB245C4E38007B82A9 /* AssetDetailView.swift */,
+				57906B05245C9C18007B82A9 /* AssetsView.swift */,
+				57269D3D24543236005F3C4F /* Assets.xcassets */,
+				57269D4224543236005F3C4F /* Main.storyboard */,
+				57269D4524543236005F3C4F /* Info.plist */,
+				57269D4624543236005F3C4F /* Algorand_Wallet.entitlements */,
+				57269D3F24543236005F3C4F /* Preview Content */,
+			);
+			path = "Algorand Wallet";
+			sourceTree = "<group>";
+		};
+		57269D3F24543236005F3C4F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				57269D4024543236005F3C4F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		57269D4E24543236005F3C4F /* Algorand WalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				57269D4F24543236005F3C4F /* Algorand_WalletTests.swift */,
+				57269D5124543236005F3C4F /* Info.plist */,
+			);
+			path = "Algorand WalletTests";
+			sourceTree = "<group>";
+		};
+		57269D5924543236005F3C4F /* Algorand WalletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57269D5A24543236005F3C4F /* Algorand_WalletUITests.swift */,
+				57269D5C24543236005F3C4F /* Info.plist */,
+			);
+			path = "Algorand WalletUITests";
+			sourceTree = "<group>";
+		};
+		57906AD1245C44B7007B82A9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				57906AD2245C44B7007B82A9 /* Data.swift */,
+				57906AD4245C44B7007B82A9 /* UserData.swift */,
+				57906AFD245C872F007B82A9 /* Asset.swift */,
+				57906B01245C982D007B82A9 /* Wallet.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57269D3524543235005F3C4F /* Algorand Wallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57269D5F24543236005F3C4F /* Build configuration list for PBXNativeTarget "Algorand Wallet" */;
+			buildPhases = (
+				57269D3224543235005F3C4F /* Sources */,
+				57269D3324543235005F3C4F /* Frameworks */,
+				57269D3424543235005F3C4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Algorand Wallet";
+			productName = "Algorand Wallet";
+			productReference = 57269D3624543235005F3C4F /* Algorand Wallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57269D4A24543236005F3C4F /* Algorand WalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57269D6224543236005F3C4F /* Build configuration list for PBXNativeTarget "Algorand WalletTests" */;
+			buildPhases = (
+				57269D4724543236005F3C4F /* Sources */,
+				57269D4824543236005F3C4F /* Frameworks */,
+				57269D4924543236005F3C4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57269D4D24543236005F3C4F /* PBXTargetDependency */,
+			);
+			name = "Algorand WalletTests";
+			productName = "Algorand WalletTests";
+			productReference = 57269D4B24543236005F3C4F /* Algorand WalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57269D5524543236005F3C4F /* Algorand WalletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57269D6524543236005F3C4F /* Build configuration list for PBXNativeTarget "Algorand WalletUITests" */;
+			buildPhases = (
+				57269D5224543236005F3C4F /* Sources */,
+				57269D5324543236005F3C4F /* Frameworks */,
+				57269D5424543236005F3C4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57269D5824543236005F3C4F /* PBXTargetDependency */,
+			);
+			name = "Algorand WalletUITests";
+			productName = "Algorand WalletUITests";
+			productReference = 57269D5624543236005F3C4F /* Algorand WalletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57269D2E24543235005F3C4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Agoda;
+				TargetAttributes = {
+					57269D3524543235005F3C4F = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					57269D4A24543236005F3C4F = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 57269D3524543235005F3C4F;
+					};
+					57269D5524543236005F3C4F = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 57269D3524543235005F3C4F;
+					};
+				};
+			};
+			buildConfigurationList = 57269D3124543235005F3C4F /* Build configuration list for PBXProject "Algorand Wallet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57269D2D24543235005F3C4F;
+			productRefGroup = 57269D3724543235005F3C4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57269D3524543235005F3C4F /* Algorand Wallet */,
+				57269D4A24543236005F3C4F /* Algorand WalletTests */,
+				57269D5524543236005F3C4F /* Algorand WalletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57269D3424543235005F3C4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57269D4424543236005F3C4F /* Main.storyboard in Resources */,
+				57269D4124543236005F3C4F /* Preview Assets.xcassets in Resources */,
+				57269D3E24543236005F3C4F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57269D4924543236005F3C4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57269D5424543236005F3C4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57269D3224543235005F3C4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57906B02245C982D007B82A9 /* Wallet.swift in Sources */,
+				57906AF6245C4A12007B82A9 /* Filter.swift in Sources */,
+				57906AEE245C4561007B82A9 /* WalletRowView.swift in Sources */,
+				57906B00245C8A03007B82A9 /* AssetRow.swift in Sources */,
+				57906AF4245C4876007B82A9 /* WalletList.swift in Sources */,
+				57906AFA245C4D15007B82A9 /* CircleImage.swift in Sources */,
+				57906AF8245C4C17007B82A9 /* WalletMaster.swift in Sources */,
+				57906AFC245C4E38007B82A9 /* AssetDetailView.swift in Sources */,
+				57906AFE245C872F007B82A9 /* Asset.swift in Sources */,
+				57269D3C24543235005F3C4F /* ContentView.swift in Sources */,
+				57906AE8245C44B7007B82A9 /* Data.swift in Sources */,
+				57906AEA245C44B7007B82A9 /* UserData.swift in Sources */,
+				57906B06245C9C18007B82A9 /* AssetsView.swift in Sources */,
+				57269D3A24543235005F3C4F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57269D4724543236005F3C4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57269D5024543236005F3C4F /* Algorand_WalletTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57269D5224543236005F3C4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57269D5B24543236005F3C4F /* Algorand_WalletUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57269D4D24543236005F3C4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57269D3524543235005F3C4F /* Algorand Wallet */;
+			targetProxy = 57269D4C24543236005F3C4F /* PBXContainerItemProxy */;
+		};
+		57269D5824543236005F3C4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57269D3524543235005F3C4F /* Algorand Wallet */;
+			targetProxy = 57269D5724543236005F3C4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57269D4224543236005F3C4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57269D4324543236005F3C4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57269D5D24543236005F3C4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57269D5E24543236005F3C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		57269D6024543236005F3C4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Algorand Wallet/Algorand_Wallet.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Algorand Wallet/Preview Content\"";
+				DEVELOPMENT_TEAM = 49MM9E7H8E;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Algorand Wallet/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yatheesha.Algorand-Wallet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		57269D6124543236005F3C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Algorand Wallet/Algorand_Wallet.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Algorand Wallet/Preview Content\"";
+				DEVELOPMENT_TEAM = 49MM9E7H8E;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Algorand Wallet/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yatheesha.Algorand-Wallet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		57269D6324543236005F3C4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 49MM9E7H8E;
+				INFOPLIST_FILE = "Algorand WalletTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yatheesha.Algorand-WalletTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algorand Wallet.app/Contents/MacOS/Algorand Wallet";
+			};
+			name = Debug;
+		};
+		57269D6424543236005F3C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 49MM9E7H8E;
+				INFOPLIST_FILE = "Algorand WalletTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yatheesha.Algorand-WalletTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algorand Wallet.app/Contents/MacOS/Algorand Wallet";
+			};
+			name = Release;
+		};
+		57269D6624543236005F3C4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 49MM9E7H8E;
+				INFOPLIST_FILE = "Algorand WalletUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yatheesha.Algorand-WalletUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Algorand Wallet";
+			};
+			name = Debug;
+		};
+		57269D6724543236005F3C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 49MM9E7H8E;
+				INFOPLIST_FILE = "Algorand WalletUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yatheesha.Algorand-WalletUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Algorand Wallet";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57269D3124543235005F3C4F /* Build configuration list for PBXProject "Algorand Wallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57269D5D24543236005F3C4F /* Debug */,
+				57269D5E24543236005F3C4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57269D5F24543236005F3C4F /* Build configuration list for PBXNativeTarget "Algorand Wallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57269D6024543236005F3C4F /* Debug */,
+				57269D6124543236005F3C4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57269D6224543236005F3C4F /* Build configuration list for PBXNativeTarget "Algorand WalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57269D6324543236005F3C4F /* Debug */,
+				57269D6424543236005F3C4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57269D6524543236005F3C4F /* Build configuration list for PBXNativeTarget "Algorand WalletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57269D6624543236005F3C4F /* Debug */,
+				57269D6724543236005F3C4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57269D2E24543235005F3C4F /* Project object */;
+}
