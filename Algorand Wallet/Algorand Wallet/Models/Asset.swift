@@ -11,5 +11,6 @@ import Foundation
 struct Asset: Hashable, Identifiable, Codable {
     var id: String
     var name: String
+    var symbol: String
     var amount: Double
 }

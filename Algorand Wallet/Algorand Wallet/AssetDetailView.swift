@@ -36,18 +36,24 @@ struct AssetDetailView: View {
             Divider()
             HStack {
                 Text("Rewards earned since last transaction")
-                    .font(.body)
+                    .font(.footnote)
+                    .fontWeight(.ultraLight)
+                    .multilineTextAlignment(.leading)
                 Text("12.4")
                     .font(.body)
+                    .fontWeight(.light)
                     .lineLimit(nil)
             }
 
             List {
-                Text("Transaction 1")
-                Text("Transaction 2")
-                Text("Transaction 3")
-                Text("Transaction 4")
-                Text("Transaction 5")
+                TransactionRow()
+                TransactionRow()
+                TransactionRow()
+                TransactionRow()
+                TransactionRow()
+                TransactionRow()
+                TransactionRow()
+                TransactionRow()
             }
 
         }
@@ -75,3 +81,4 @@ struct NiceButtonStyle: ButtonStyle {
             .cornerRadius(20)
     }
 }
+

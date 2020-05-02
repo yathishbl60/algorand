@@ -25,6 +25,9 @@
 		57906B00245C8A03007B82A9 /* AssetRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57906AFF245C8A03007B82A9 /* AssetRow.swift */; };
 		57906B02245C982D007B82A9 /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57906B01245C982D007B82A9 /* Wallet.swift */; };
 		57906B06245C9C18007B82A9 /* AssetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57906B05245C9C18007B82A9 /* AssetsView.swift */; };
+		57906B0C245D67D0007B82A9 /* SearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57906B0B245D67D0007B82A9 /* SearchField.swift */; };
+		57906B0E245D6803007B82A9 /* SearchTextObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57906B0D245D6803007B82A9 /* SearchTextObservable.swift */; };
+		57906B14245DAD95007B82A9 /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57906B13245DAD95007B82A9 /* TransactionRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +73,9 @@
 		57906AFF245C8A03007B82A9 /* AssetRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetRow.swift; sourceTree = "<group>"; };
 		57906B01245C982D007B82A9 /* Wallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
 		57906B05245C9C18007B82A9 /* AssetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsView.swift; sourceTree = "<group>"; };
+		57906B0B245D67D0007B82A9 /* SearchField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchField.swift; sourceTree = "<group>"; };
+		57906B0D245D6803007B82A9 /* SearchTextObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTextObservable.swift; sourceTree = "<group>"; };
+		57906B13245DAD95007B82A9 /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +136,9 @@
 				57906AF7245C4C17007B82A9 /* WalletMaster.swift */,
 				57906AFB245C4E38007B82A9 /* AssetDetailView.swift */,
 				57906B05245C9C18007B82A9 /* AssetsView.swift */,
+				57906B0B245D67D0007B82A9 /* SearchField.swift */,
+				57906B0D245D6803007B82A9 /* SearchTextObservable.swift */,
+				57906B13245DAD95007B82A9 /* TransactionRow.swift */,
 				57269D3D24543236005F3C4F /* Assets.xcassets */,
 				57269D4224543236005F3C4F /* Main.storyboard */,
 				57269D4524543236005F3C4F /* Info.plist */,
@@ -311,6 +320,8 @@
 				57906AF6245C4A12007B82A9 /* Filter.swift in Sources */,
 				57906AEE245C4561007B82A9 /* WalletRowView.swift in Sources */,
 				57906B00245C8A03007B82A9 /* AssetRow.swift in Sources */,
+				57906B0E245D6803007B82A9 /* SearchTextObservable.swift in Sources */,
+				57906B0C245D67D0007B82A9 /* SearchField.swift in Sources */,
 				57906AF4245C4876007B82A9 /* WalletList.swift in Sources */,
 				57906AF8245C4C17007B82A9 /* WalletMaster.swift in Sources */,
 				57906AFC245C4E38007B82A9 /* AssetDetailView.swift in Sources */,
@@ -318,6 +329,7 @@
 				57269D3C24543235005F3C4F /* ContentView.swift in Sources */,
 				57906AE8245C44B7007B82A9 /* Data.swift in Sources */,
 				57906AEA245C44B7007B82A9 /* UserData.swift in Sources */,
+				57906B14245DAD95007B82A9 /* TransactionRow.swift in Sources */,
 				57906B06245C9C18007B82A9 /* AssetsView.swift in Sources */,
 				57269D3A24543235005F3C4F /* AppDelegate.swift in Sources */,
 			);

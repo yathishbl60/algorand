@@ -18,9 +18,9 @@ let walletData: [Wallet] = [
         isFeatured: true,
         description: "This one is wallet 1 description",
         assets: [
-            Asset(id: "1", name: "Algorand", amount: 159234.60),
-            Asset(id: "2", name: "USDT", amount: 500.45),
-            Asset(id: "3", name: "ARCC", amount: 4500.34)
+            Asset(id: "1", name: "Algorand", symbol: "ALG", amount: 159234.60),
+            Asset(id: "2", name: "Tether", symbol: "USDT", amount: 500.45),
+            Asset(id: "3", name: "Asia reserve currency", symbol: "ARCC", amount: 4500.34)
         ]
     ),
     Wallet(
@@ -31,9 +31,9 @@ let walletData: [Wallet] = [
         isFeatured: true,
         description: "This one is wallet 2 description",
         assets: [
-            Asset(id: "1", name: "Algorand", amount: 159234.60),
-            Asset(id: "2", name: "USDT", amount: 500.45),
-            Asset(id: "3", name: "ARCC", amount: 4500.34)
+            Asset(id: "1", name: "Algorand", symbol: "ALG", amount: 159234.60),
+            Asset(id: "2", name: "Tether", symbol: "USDT", amount: 500.45),
+            Asset(id: "3", name: "Asia reserve currency", symbol: "ARCC", amount: 4500.34)
         ]
     ),
     Wallet(
@@ -44,9 +44,9 @@ let walletData: [Wallet] = [
         isFeatured: false,
         description: "This one is wallet 3 description",
         assets: [
-            Asset(id: "1", name: "Algorand", amount: 159234.60),
-            Asset(id: "2", name: "USDT", amount: 500.45),
-            Asset(id: "3", name: "ARCC", amount: 4500.34)
+            Asset(id: "1", name: "Algorand", symbol: "ALG", amount: 159234.60),
+            Asset(id: "2", name: "Tether", symbol: "USDT", amount: 500.45),
+            Asset(id: "3", name: "Asia reserve currency", symbol: "ARCC", amount: 4500.34)
         ]
     ),
     Wallet(
@@ -57,9 +57,9 @@ let walletData: [Wallet] = [
         isFeatured: false,
         description: "This one is wallet 4 description",
         assets: [
-            Asset(id: "1", name: "Algorand", amount: 159234.60),
-            Asset(id: "2", name: "USDT", amount: 500.45),
-            Asset(id: "3", name: "ARCC", amount: 4500.34)
+            Asset(id: "1", name: "Algorand", symbol: "ALG", amount: 159234.60),
+            Asset(id: "2", name: "Tether", symbol: "USDT", amount: 500.45),
+            Asset(id: "3", name: "Asia reserve currency", symbol: "ARCC", amount: 4500.34)
         ]
     )
 ]

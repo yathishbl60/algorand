@@ -14,16 +14,44 @@ struct WalletList: View {
     @Binding var filter: FilterType
 
     var body: some View {
-        List(selection: $selectedWallet) {
-            ForEach(userData.wallets) { wallet in
-                if (!self.userData.showFavoritesOnly || wallet.isFavorite)
-                && (self.filter == .all
-                    || self.filter.category == wallet.category
-                    || (self.filter.category == .featured && wallet.isFeatured)) {
-                WalletRowView(wallet: wallet)
-                    .tag(wallet)
+        VStack(alignment: .leading) {
+            List(selection: $selectedWallet) {
+                ForEach(userData.wallets) { wallet in
+                    if (!self.userData.showFavoritesOnly || wallet.isFavorite)
+                        && (self.filter == .all
+                            || self.filter.category == wallet.category
+                            || (self.filter.category == .featured && wallet.isFeatured)) {
+                        WalletRowView(wallet: wallet)
+                            .tag(wallet)
+                    }
                 }
             }
+
+            Divider()
+            HStack {
+                Button(action: {
+
+                }) {
+                    Image(nsImage: NSImage(named: NSImage.touchBarAddTemplateName)!)
+                    Text("Add Wallet")
+                        .font(.footnote)
+                }
+                .buttonStyle(BorderlessButtonStyle())
+                .padding(.leading)
+
+                Spacer()
+
+                Button(action: {}) {
+                    Image(nsImage: NSImage(named: NSImage.advancedName)!)
+                        .resizable()
+                        .controlSize(.mini)
+                        .frame(width: 20, height: 20)
+                }
+                .buttonStyle(BorderlessButtonStyle())
+                .padding(.leading)
+                .padding(.trailing)
+            }
+            Spacer()
         }
     }
 }

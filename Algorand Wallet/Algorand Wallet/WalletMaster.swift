@@ -14,11 +14,13 @@ struct WalletMaster: View {
 
     var body: some View {
         VStack {
-          Filter(filter: $filter)
-              .controlSize(.small)
-              .padding([.top, .leading], 8)
-              .padding(.trailing, 4)
-
+            Spacer()
+            Filter(filter: $filter)
+                .controlSize(.small)
+                .padding([.top, .leading], 8)
+                .padding(.trailing, 4)
+            Spacer()
+            Divider()
             WalletList(
                 selectedWallet: $selectedWallet,
                 filter: $filter

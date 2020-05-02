@@ -13,21 +13,31 @@ struct AssetRow: View {
 
     var body: some View {
         VStack(alignment: .leading) {
-            Spacer()
+            HStack {
+                Text(asset.name)
+                    .font(.body)
+                    .fontWeight(.medium)
+                    .multilineTextAlignment(.leading)
+                    .truncationMode(.tail)
+                Spacer()
+                Text(asset.symbol)
+                    .font(.subheadline)
+                    .fontWeight(.light)
+                    .multilineTextAlignment(.trailing)
+            }
 
-            Text(asset.name)
-                .font(.headline)
-                .fontWeight(.medium)
+            Text("\(asset.amount)")
+                .fontWeight(.regular)
                 .multilineTextAlignment(.leading)
+            
 
-            Spacer()
+            Divider()
         }
-        .padding(.leading, 16)
     }
 }
 
 struct AssetRow_Previews: PreviewProvider {
     static var previews: some View {
-        AssetRow(asset: walletData[0].assets[0])
+        AssetRow(asset: walletData[0].assets[0]).frame(width: 250)
     }
 }

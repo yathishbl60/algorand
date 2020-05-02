@@ -20,7 +20,7 @@ struct Filter: View {
                 }
             }
             Toggle(isOn: $userData.showFavoritesOnly) {
-                Text("Favorites only")
+                Text("Favorites")
             }
         }
     }
